@@ -11,6 +11,12 @@ dependencies = [
 [tool.ruff]
 line-length = 120
 
+[tool.ruff.format]
+quote-style = "single"
+docstring-code-format = true
+
+[tool.ruff.lint]
+ignore = ["E741"]
 
 [tool.pytest.ini_options]
 testpaths = [

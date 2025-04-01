@@ -1,6 +1,5 @@
 # 03.17.2025
 # 2206. Divide Array Into Equal Pairs
-import math
 from typing import List
 
 
@@ -18,17 +17,17 @@ class Solution:
 
 def test1():
     sol = Solution()
-    assert sol.divideArray([1, 1, 2, 2, 3, 3]) == True
+    assert sol.divideArray([1, 1, 2, 2, 3, 3])
 
 
 def test2():
     sol = Solution()
-    assert sol.divideArray([1, 1, 1, 1, 2]) == False
+    assert sol.divideArray([1, 1, 1, 1, 2])
 
 
 def test3():
     sol = Solution()
-    assert sol.divideArray([1, 1, 1, 1]) == True
+    assert sol.divideArray([1, 1, 1, 1])
 
 
 def main():
@@ -37,5 +36,5 @@ def main():
     test3()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

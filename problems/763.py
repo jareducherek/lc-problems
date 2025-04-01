@@ -21,17 +21,17 @@ class Solution:
 
 def test1():
     sol = Solution()
-    assert sol.partition_labels("eccbbbbdec") == [10]
+    assert sol.partition_labels('eccbbbbdec') == [10]
 
 
 def test2():
     sol = Solution()
-    assert sol.partition_labels("ababcbacadefegdehijhklij") == [9, 7, 8]
+    assert sol.partition_labels('ababcbacadefegdehijhklij') == [9, 7, 8]
 
 
 def test3():
     sol = Solution()
-    assert sol.partition_labels("aaaaa") == [5]
+    assert sol.partition_labels('aaaaa') == [5]
 
 
 def main():
@@ -40,5 +40,5 @@ def main():
     test3()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

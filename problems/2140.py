@@ -25,6 +25,6 @@ def test2():
     assert sol.most_points([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5]]) == 7
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     test1()
     test2()

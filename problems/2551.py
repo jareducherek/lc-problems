@@ -21,6 +21,6 @@ def test2():
     assert sol.put_marbles([1, 3], k=1) == 0
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     test1()
     test2()

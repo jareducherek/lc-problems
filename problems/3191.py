@@ -31,7 +31,7 @@ def test3():
     assert sol.make_elements_equal_one([0, 0, 0, 0]) == -1
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     test1()
     test2()
     test3()
